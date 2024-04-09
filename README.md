@@ -5,7 +5,7 @@
 #### By Tyra Norah Otieno*
 
 ## Description
-This web page is about quotes from The famous Kanye West.
+This web page is about a generatedquotes based on an infamous artia
 
 ## Installation
 You use git clone to be able to download the documents in the GitHub
