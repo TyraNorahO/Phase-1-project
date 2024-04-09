@@ -19,20 +19,22 @@ document.addEventListener('DOMContentLoaded', function() {
                 console.error('Error in generating quote:', error);
             });
     }
-  
+    
     // Function to display the quote on the webpage
     function displayQuote(quote) {
         // text content of the quote container that is to be a received quote
         quoteContainer.textContent = quote;
     }
-  
+    // Event listener for 
     // Event listener for a fetch button
-    fetchButton.addEventListener('click', fetchKanyeQuote);
+    fetchButton.addEventListener('click',fetchKanyeQuote);
   
     // Event listener for a clear button
-    clearButton.addEventListener('click', function() {
+    clearButton.addEventListener('click',function() {
         quoteContainer.textContent = 'Yeezy Wisdom loading...';
+    // changes the button's background color to
     });
+
   
     // Fetch a quote when the page loads
     fetchKanyeQuote();

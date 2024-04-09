@@ -78,8 +78,11 @@ nav a {
 }
 
 .kanye-gif {
-    max-width: 100%;
+    display: block; 
+    margin: 20px auto;
+    max-width: 90%;
     max-height: 80%;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
