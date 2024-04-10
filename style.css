@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-    max-width: 600px;
+    max-width: 600zpx;
     margin: 100px auto;
     background-color: #f7fafa;
     padding: 20px;
@@ -69,7 +69,7 @@ nav a {
     text-decoration: none;
 }
 
-.gif-container {
+.tenor-gif-embedzcontainer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,12 +77,8 @@ nav a {
     background-color: #f0f0f0;
 }
 
-.kanye-gif {
-    display: block; 
-    margin: 20px auto;
-    max-width: 90%;
-    max-height: 80%;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.tenor-gif-embed {
+    margin-top: 20px;
+    max-width: 70%; 
 }
 
