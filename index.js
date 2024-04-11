@@ -8,12 +8,12 @@ document.addEventListener('DOMContentLoaded', function() {
             fetch('db.json')
                 .then(response => {
                     if (!response.ok) {
-                        throw new Error('Failed to fetch quotes');
+                        throw new Error('Failed to fetch quote');
                     }
                     return response.json();
                 })
                 .then(data => {
-                    // Assuming your quotes are stored in an array called 'quotes' in db.json
+                    //quote are stored in an array  in db.json
                     const randomIndex = Math.floor(Math.random() * data.quotes.length);
                     const randomQuote = data.quotes[randomIndex].quote;
                     displayQuote(randomQuote);
