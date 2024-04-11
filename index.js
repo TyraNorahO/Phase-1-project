@@ -37,6 +37,15 @@ document.addEventListener('DOMContentLoaded', function() {
         quoteContainer.textContent = 'Yeezy Wisdom loading...';
     // changes the button's background color to purple 
     });
+    //like button
+    let likeCount = 0;
+    const likeButton = document.getElementById('like-button');
+    const likeCountSpan = document.getElementById('like-count');
+    // Event listener for a like button
+    likeButton.addEventListener('click', function() {
+        likeCount++;
+        likeCountSpan.textContent = likeCount;
+    });
 
   
     // Fetch a quote when the page loads

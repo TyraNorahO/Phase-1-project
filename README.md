@@ -5,7 +5,7 @@
 #### By Tyra Norah Otieno*
 
 ## Description
-This web page is about a generatedquotes based on an infamous artia
+This web page is about a generatedquotes based on an famous artist 
 
 ## Installation
 You use git clone to be able to download the documents in the GitHub
