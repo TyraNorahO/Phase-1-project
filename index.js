@@ -5,37 +5,42 @@ document.addEventListener('DOMContentLoaded', function() {
   
     // Function to fetch a Kanye quote from the API
     function fetchKanyeQuote() {
-        fetch('https://api.kanye.rest/')
-            .then(res => {
-                if (!res.ok) {
-                    throw new Error('Failed to generate quote');
-                }
-                return res.json();
-            })
-            .then(data => {
-                displayQuote(data.quote);
-            })
-            .catch(error => {
-                console.error('Error in generating quote:', error);
-            });
-    }
+            fetch('db.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Failed to fetch quotes');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    // Assuming your quotes are stored in an array called 'quotes' in db.json
+                    const randomIndex = Math.floor(Math.random() * data.quotes.length);
+                    const randomQuote = data.quotes[randomIndex].quote;
+                    displayQuote(randomQuote);
+                })
+                .catch(error => {
+                    console.error('Error fetching quotes:', error);
+                });
+        }
     
     // Function to display the quote on the webpage
     function displayQuote(quote) {
         // text content of the quote container that is to be a received quote
         quoteContainer.textContent = quote;
     }
-    // Event listener for 
+
     // Event listener for a fetch button
     fetchButton.addEventListener('click',fetchKanyeQuote);
   
     // Event listener for a clear button
     clearButton.addEventListener('click',function() {
         quoteContainer.textContent = 'Yeezy Wisdom loading...';
-    // changes the button's background color to
+    // changes the button's background color to purple 
     });
 
   
     // Fetch a quote when the page loads
     fetchKanyeQuote();
   });
+  
+  
