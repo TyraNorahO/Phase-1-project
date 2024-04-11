@@ -78,7 +78,15 @@ nav a {
 }
 
 .tenor-gif-embed {
-    margin-top: 20px;
-    max-width: 70%; 
+    margin-top: 10px;
+    max-width: 30%; 
 }
 
+.tenor-gif-embed a {
+    color: blue; 
+    text-decoration: none; 
+}
+
+.tenor-gif-embed a:hover {
+    text-decoration: underline; 
+}
