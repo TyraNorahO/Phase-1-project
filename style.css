@@ -10,9 +10,9 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fdfdfd;
+    background-color: #ebdddd;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(252, 252, 252, 0.1);
 }
 
 .header-content {
@@ -40,7 +40,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #e75353;
+    color: #000000;
 }
 
 
@@ -51,7 +51,7 @@ nav ul li a {
 #quote-text {
     font-size: 20px;
     font-style: italic;
-    color: #080808;
+    color: #0c0808;
 }
 
 .quote-buttons {
@@ -99,7 +99,7 @@ footer {
 }
 
 #like-button:hover {
-    background-color: #0056b3;
+    background-color: #b741d4;
 }
 
 #like-count {
