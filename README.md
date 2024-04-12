@@ -21,7 +21,7 @@ Git
 
 ### Installation instruction
 ```
-Git clone 
+Git clone https://tyratheegreatest.github.io/Phase-1-project/
 
 ```
 
