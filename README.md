@@ -5,7 +5,8 @@
 #### By Tyra Norah Otieno*
 
 ## Description
-This web page is about a generatedquotes based on an famous artist 
+The project is a webpage titled "Kanye's Chronicles" dedicated to Kanye West, featuring a collection of his iconic quotes, a short essay about Kanye, and a like button functionality.
+The key features of this project are;Header,Quote Section,Biography section and like button.
 
 ## Installation
 You use git clone to be able to download the documents in the GitHub
@@ -29,7 +30,7 @@ Github
 Javascript
 
 ## Support and contact details
-github.com/Tyra Norah
+[github.com/Tyra Norah](https://github.com/)
 
 ### License
 The content of this site is licensed under the MIT license
